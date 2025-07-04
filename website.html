@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: rgb(242, 244, 244);
+
+
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 200px;
+      gap: 100px;
+      height: 100vh;
+
+
+
+    }
+
+    .facebook {
+      font-size: 50px;
+      color: rgb(8, 102, 255);
+      font-weight: bold;
+    }
+
+    .text {
+      width: 350px;
+    }
+
+    input {
+      padding: 12px;
+      width: 300px;
+      border-radius: 5px;
+      border-color: #aca9a4;
+      border-style: solid;
+      margin-top: 4px;
+
+
+
+
+    }
+
+
+
+    .botton-1 {
+      background-color: rgb(8, 102, 255);
+      color: white;
+      width: 330px;
+      height: 35px;
+      border-radius: 4px;
+      margin-top: 4px;
+
+    }
+
+    .link {
+      margin-left: 30px;
+    }
+
+    .second-half {
+      border-width: 1px;
+      border-style: solid;
+      border-color: white;
+      padding: 20px;
+      background-color: white;
+      width: 400px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center
+    }
+
+    .create-items {
+      border-radius: 6px;
+      background-color: rgb(66, 183, 42);
+      color: white;
+      padding: 16px;
+      width: 160px;
+      padding-right: 0;
+
+    }
+
+    @media(max-width:768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+
+        gap: 20px;
+        padding: 20px;
+
+
+
+      }
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="first-half">
+      <div class="facebook">facebook</div>
+      <div class="text">Facebook helps you connect and share with the people in your life.</div>
+    </div>
+    <div class="second-half">
+      <div class="email">
+        <input type="text" placeholder="Email">
+        <div><input type="text" placeholder="Password"></div>
+      </div>
+      <div class="button">
+        <button class="botton-1"> Log in</button>
+
+      </div>
+      <div> <a class="link" href="#">
+          <center>Forgotten pasword ?</center>
+        </a></div>
+      <hr>
+      <div class="create-items">create new account</div>
+    </div>
+    <p>Create a Page for a celebrity, brand or business.</p>
+
+
+
+  </div>
+</body>
+
+</html>
